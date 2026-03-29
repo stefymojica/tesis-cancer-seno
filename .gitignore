@@ -1,2 +1,27 @@
-# Guía de tesis (no subir al repo)
-docs/guia_tesis_meritoria.md
+# --- Datos (Dataset CBIS-DDSM) ---
+data/
+*.csv
+*.dcm
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+env/
+venv/
+.env
+
+# --- Jupyter Notebooks ---
+.ipynb_checkpoints/
+
+# --- Streamlit ---
+.streamlit/
+
+# --- Sistema (Mac/Linux/Windows) ---
+.DS_Store
+Thumbs.db
+
+# --- Documentación privada ---
+docs/*
+.app/*
