@@ -1,6 +1,6 @@
 # --- Datos (Dataset CBIS-DDSM) ---
-data/
-*.csv
+data/*
+!data/mass_*
 *.dcm
 
 # --- Python ---
